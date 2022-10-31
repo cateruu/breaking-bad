@@ -23,9 +23,15 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
           </nav>
         </header>
         {children}
-        <footer>
-          Made by <a href='https://github.com/cateruu'>Paweł</a> and{' '}
-          <a href='https://github.com/chmery'>Wiktor</a>
+        <footer className={styles.footer}>
+          Made by{' '}
+          <a href='https://github.com/cateruu' target='_blank' rel='noreferrer'>
+            Paweł
+          </a>{' '}
+          and{' '}
+          <a href='https://github.com/chmery' target='_blank' rel='noreferrer'>
+            Wiktor
+          </a>
         </footer>
       </body>
     </html>

@@ -27,3 +27,16 @@
 .link:hover {
   color: var(--font-color-secondary);
 }
+
+.footer {
+  height: 60px;
+  background-color: var(--bg-secondary);
+  text-align: center;
+  line-height: 60px;
+  color: var(--font-color-secondary);
+  font-size: 20px;
+}
+
+.footer > a {
+  color: var(--font-color-main);
+}
