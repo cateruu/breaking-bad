@@ -1,12 +1,13 @@
 import Link from 'next/link';
 import styles from './layout.module.css';
+import './SearchInput.module.css';
 import './globals.css';
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang='en'>
       <head>
-        <title>Bearking Bed</title>
+        <title>Barking Bed</title>
         <meta name='description' content='Breaking bed info mordo' />
         <link rel='icon' href='/favicon.ico' />
       </head>
@@ -18,7 +19,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
               Search
             </Link>
             <Link href='/killers' className={styles.link}>
-              Killers
+              Top Killers
             </Link>
           </nav>
         </header>
