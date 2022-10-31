@@ -20,8 +20,9 @@ a {
 }
 
 :root {
-  --bg-main: #2b2b2b;
+  --bg-main: #202020;
   --bg-secondary: #1e1e1e;
+  --bg-button: #2b2b2b;
   --font-color-main: #fff;
   --font-color-secondary: #d3d3d3;
   --border-color: #686868;
