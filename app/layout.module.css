@@ -1,0 +1,51 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 50rem;
+    min-width: 35rem;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.header > div {
+    padding: 0 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--font-color-main);
+}
+
+.name {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.nav {
+    width: 12rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link {
+    color: var(--font-color-main);
+    transition: 0.1s;
+}
+
+.link:hover {
+    color: var(--font-color-secondary);
+}
+
+.footer {
+    height: 60px;
+    background-color: var(--bg-secondary);
+    text-align: center;
+    line-height: 60px;
+    color: var(--font-color-secondary);
+    font-size: 20px;
+}
+
+.footer > a {
+    color: var(--font-color-main);
+}
