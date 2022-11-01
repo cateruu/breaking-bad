@@ -25,7 +25,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
                         </nav>
                     </div>
                 </header>
-                {children}
+                <main className={styles.main}>{children}</main>
                 <footer className={styles.footer}>
                     Made by{" "}
                     <a href="https://github.com/cateruu" target="_blank" rel="noreferrer">
