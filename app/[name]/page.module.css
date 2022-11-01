@@ -1,0 +1,31 @@
+.character {
+    display: flex;
+    column-gap: 2rem;
+}
+
+.name {
+    font-weight: 600;
+}
+
+.image {
+    width: 13rem;
+    height: 15rem;
+    object-fit: cover;
+    object-position: top;
+}
+
+.about {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.details,
+.quote {
+    color: var(--font-color-secondary);
+}
+
+.details > div span {
+    font-weight: 500;
+}
