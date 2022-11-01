@@ -2,6 +2,7 @@
 
 import styles from './SearchInput.module.css';
 import { useState } from 'react';
+import Link from 'next/link';
 
 const SearchInput = () => {
   const [searchInput, setSearchInput] = useState<string>('');
@@ -20,8 +21,12 @@ const SearchInput = () => {
         onChange={(e) => handleSearchInput(e.target.value)}
       />
       <div className={styles.buttons}>
-        <button className={styles.button}>Search</button>
-        <button className={styles.button}>Get Random</button>
+        <Link href='/aha' className={styles.button}>
+          Search
+        </Link>
+        <Link href='/aha' className={styles.button}>
+          Get Random
+        </Link>
       </div>
     </>
   );
