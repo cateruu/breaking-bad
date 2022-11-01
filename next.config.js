@@ -1,18 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    experimental: {
-        appDir: true,
-    },
-    images: {
-        remotePatterns: [
-            {
-                protocol: "https",
-                hostname: "images.amcnetworks.com",
-                port: "",
-                pathname: "/**",
-            },
-        ],
-    },
+  experimental: {
+    appDir: true,
+  },
 };
 
 module.exports = nextConfig;
