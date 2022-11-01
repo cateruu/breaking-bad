@@ -17,6 +17,16 @@
     color: var(--font-color-main);
 }
 
+.main {
+    margin: 0 auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px - 60px);
+}
+
 .name {
     font-size: 24px;
     font-weight: 600;
